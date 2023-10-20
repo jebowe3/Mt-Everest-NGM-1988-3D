@@ -43,3 +43,5 @@ pmtiles convert output_rgb.mbtiles output_rgb.pmtiles
 Using this output with pmtiles of the scanned topographic map yielded the [following results](https://jebowe3.github.io/Mt-Everest-NGM-1988-3D/).
 
 ![Everest](mteverest.gif)
+
+DEM data was downloaded from [NASA Earthdata](https://www.earthdata.nasa.gov/). The scanned topographic map was downloaded from [Atlas of Places](https://www.atlasofplaces.com/).
