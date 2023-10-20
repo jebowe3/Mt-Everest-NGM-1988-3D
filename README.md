@@ -13,10 +13,10 @@ First, I created a txt file I called "color_relief.txt" and placed the following
 
 ```
 3590 68 1 84
-8590 253 231 37
+8890 253 231 37
 ```
 
-In meters, 3590 to 8590 contained the full range of elevation values in my map. The numbers that follow these in each row are RGB values. I used this file to create a continuous range of colors between these two values.
+In meters, 3590 to 8890 contained the full range of elevation values in my map. The numbers that follow these in each row are RGB values. I used this file to create a continuous range of colors between these two values.
 
 Opening Terminal in MacOS, I used the following command to create an output RGB tif file using this color range:
 
