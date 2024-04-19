@@ -7,6 +7,10 @@ I encountered a lot of difficulties generating RGB tif files from DEMs of terrai
 
 When I used the same rgbify commands for high-relief DEM data as for lower elevation low-relief data, I had issues with spikes appearing at 3000 meters or would see cave-ins when trying to correct for this in my Terminal commands.
 
+An example of this common spiking problem can be seen in the image below and shows up in MapLibre's 3D Terrain documentation.
+
+![Spiking](spiking.png)
+
 ## Solution: Use a TXT File with RGB Designations for the Full Elevation Range with GDALDEM to Generate a Smooth and Continuous RGB TIF
 
 First, I created a txt file I called "color_relief.txt" and placed the following text within:
